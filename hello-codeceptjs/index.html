@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <script>
+    function onLoad() {
+      const btn = document.getElementById('button');
+      const stage = document.getElementById('stage');
+
+      // #buttonで#stageの内容を書き換える
+      btn.addEventListener('click', (e) => {
+        stage.innerHTML = 'Hello';
+      });
+    }
+  </script>
+  <body onload="onLoad()">
+    <h1>Hello, World</h1>
+    <button type="button" id="button">Button</button>
+    <div id="stage" >Initial</div>
+  </body>
+</html>
