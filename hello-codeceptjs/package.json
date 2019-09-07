@@ -1,0 +1,20 @@
+{
+  "name": "hello-codeceptjs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "codeceptjs": "^2.3.1",
+    "puppeteer": "^1.19.0",
+    "puppeteer-core": "^1.9.0",
+    "selenium-standalone": "^6.16.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "webdriverio": "^5.12.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "author": "kkAyataka",
+  "license": "Apache-2.0"
+}
